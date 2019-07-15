@@ -4,7 +4,8 @@
   "description": "Video Call Site Using Jitsi-Meet API",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sodavinchheng/JitsiMeetAPI/issues"
   },
-  "homepage": "https://github.com/sodavinchheng/JitsiMeetAPI#readme"
+  "homepage": "https://github.com/sodavinchheng/JitsiMeetAPI#readme",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
